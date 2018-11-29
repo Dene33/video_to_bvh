@@ -1,5 +1,5 @@
 # video_to_bvh
-Convert human motion from video to .bvh
+Convert human motion from video to .bvh with Google Colab
 
 ## Usage
 ### 1. Open video_to_bvh.ipynb in Google Colab
