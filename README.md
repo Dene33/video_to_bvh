@@ -4,7 +4,7 @@ Convert human motion from video to .bvh with Google Colab
 ## Usage
 ### 1. Open video_to_bvh.ipynb in Google Colab
 1. Go to https://colab.research.google.com
-2. **File** > **Upload notebook...** > **GitHub** > **Paste this link: https://github.com/Dene33/video_to_bvh/blob/master/video_to_bvh.ipynb**
+2. **```File```** > **```Upload notebook...```** > **```GitHub```** > **```Paste this link:``` https://github.com/Dene33/video_to_bvh/blob/master/video_to_bvh.ipynb**
 ### 2. Initial imports, install, initializations
 Second step is to install all the required dependencies. Select the first code cell and push ```shift+enter```. You'll see running lines of executing code. Wait until it's done (1-2 minutes).
 ### 3. Upload video
@@ -23,6 +23,7 @@ This step does all the job:
 
 ### 5. Download .bvh
 1. Select the code cell and push ```shift+enter``` .bvh will be saved to your PC.
+2. If you want preview it, run [Blender](https://www.blender.org/) on your PC. **```File```** > **```Import```** > **```Motion Capture (.bvh)```** > **```alt+a```**
 
 ### 6. Clear all the generated data if you want to process new video
 1. Select the code cell and push ```shift+enter```. 
