@@ -14,9 +14,9 @@ Second step is to install all the required dependencies. Select the first code c
 ### 3. Upload video
 1. Select the code cell and push ```shift+enter```
 2. Push **```select files```** button
-3. Select the video you want to process (it should contain only one person, all body parts in frame)
+3. Select the video you want to process (it should contain only one person, all body parts in frame, long videos will take a lot of time to process)
 ### 4. Process the video
-1. Specify desired ```fps``` rate at which you want to convert video to images
+1. Specify desired ```fps``` rate at which you want to convert video to images. Lower fps = faster processing
 2. Select the code cell and push ```shift+enter``` 
 
 This step does all the job: 
