@@ -17,7 +17,7 @@ Second step is to install all the required dependencies. Select the first code c
 
 This step does all the job: 
 1. Convertion of video to images (images are required for pose estimation to work)
-2. 2d pose estimation. For each image creates corresponding .json file with format similar to output .json format of original [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md). [Fork](https://github.com/Dene33/keras_Realtime_Multi-Person_Pose_Estimation) of [keras_Realtime_Multi-Person_Pose_Estimation](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) is used.
+2. 2d pose estimation. For each image creates corresponding .json file with 2djoints with format similar to output .json format of original [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md). [Fork](https://github.com/Dene33/keras_Realtime_Multi-Person_Pose_Estimation) of [keras_Realtime_Multi-Person_Pose_Estimation](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) is used.
 3. 3d pose estimation. Creates .csv file of all the frames of video with 3d joints coordinates. [Fork](https://github.com/Dene33/hmr) of [End-to-end Recovery of Human Shape and Pose](https://github.com/akanazawa/hmr)
 4. Convertion of estimated .csv files to .bvh with help of [custom script](https://github.com/Dene33/hmr/blob/master/csv_to_bvh.py) with [.blend file](https://github.com/Dene33/hmr/blob/master/csv_to_bvh.blend).
 
